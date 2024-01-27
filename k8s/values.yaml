@@ -1,0 +1,12 @@
+fernetKey: TXM4dFFKNVdTbHprN3psQ1JUbnJ4b2U3aWJNSHJ3cXY=
+webserverSecretKey: TXM4dFFKNVdTbHprN3psQ1JUbnJ4b2U3aWJNSHJ3cXY=
+
+dags:
+  gitSync:
+    enabled: true
+    repo: https://github.com/SiddharthUchil/Kubernetes-For-DataEngineering.git
+    branch: main
+    rev: HEAD
+    depth: 1
+    maxFailures: 0
+    subPath: "dags"
